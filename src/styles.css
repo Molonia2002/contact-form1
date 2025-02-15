@@ -1,28 +1,37 @@
+/* General styles */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-}
-
-form {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  background: blue;
+  background-color: #0b1e26;
   color: white;
-  padding: 10px;
+}
+
+/* Center content */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
